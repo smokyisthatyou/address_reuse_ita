@@ -1,11 +1,11 @@
-**A cura di**
-Andrea Dimauro 
-Flavio Mastrorocco 
-Sibilla Merlo 
-Giulia Lydia Perini
-Paolo Tiecco
+**A cura di**/
+Andrea Dimauro/ 
+Flavio Mastrorocco/ 
+Sibilla Merlo/
+Giulia Lydia Perini/
+Paolo Tiecco/
 
-Anno Accademico 2023-2024
+Anno Accademico 2023-2024/
 
 # Abstract
 
