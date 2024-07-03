@@ -13,17 +13,17 @@ Il seguente progetto di ricerca ha come obiettivo primario quello di
 studiare il concetto di *address reuse* e le relative tecniche di
 mitigazione, tra cui silent payments.
 
-La narrazione si sviluppa introducendo i cardini della tecnologia
-Bitcoin[bb](#introduzione), riassumendo quindi come avvengono le transazioni, come sono
+La narrazione si sviluppa introducendo i [cardini della tecnologia
+Bitcoin](#introduzione), riassumendo quindi come avvengono le transazioni, come sono
 calcolati e generati gli indirizzi (pubblici e privati) e come
 quest'ultimi vengano utilizzati. La ricerca prosegue con l'approfondimento del
-problema del riutilizzo degli indirizzi, evidenziando aspetti relativi a
+problema del [riutilizzo degli indirizzi](#address-reuse), evidenziando aspetti relativi a
 privacy e sicurezza del proprietario.
-Lo studio si espande analizzando alcune tecniche per limitare e mitigare
+Lo studio si espande analizzando alcune [tecniche per limitare e mitigare](#rimedi-all'-address-reuse)
 i difetti, le problematiche e gli effetti indesiderati dovute agli
-*address reuse*. Vengono, infine, esplorati alcuni attacchi
-informatici avvenuti sfruttando la ripetizione degli indirizzi
-e vengono presentate le pratiche migliori da adottare per evitare
+*address reuse*. Vengono, infine, esplorati alcuni [attacchi
+informatici](#vulnerabilità-e-privacy-breach) avvenuti sfruttando la ripetizione degli indirizzi
+e vengono presentate le [pratiche migliori](#best-practices) da adottare per evitare
 problematiche legate all'*address reuse*.
 
 # Introduzione
