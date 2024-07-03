@@ -5,7 +5,7 @@ Sibilla Merlo\
 Giulia Lydia Perini\
 Paolo Tiecco
 
-Anno Accademico 2023-2024
+Anno Accademico 2023-2024 - Politecnico di Torino, indirizzo Cybersecurity
 
 # Abstract
 
