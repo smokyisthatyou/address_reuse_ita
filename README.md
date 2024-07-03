@@ -86,7 +86,7 @@ asimmetriche si utilizzi un sistema ECC (*Elliptic Curve Cryptosystem*),
 il quale permette la creazione di una chiave privata di 256 bit e la
 corrispondente chiave pubblica anch'essa di 256 bit.
 
-::: tcolorbox
+ ``` 
 Il sistema a curva ellittica utilizzato da Bitcoin prevede l'utilizzo
 di:
 
@@ -100,7 +100,7 @@ di:
     $y = 483ADA7726A3C4 \cdot 10^{32}$
 
 -   **Numero di punti della curva**: in esadecimale $n=10^{40}$.
-:::
+ ``` 
 
 Ogni utente seleziona casualmente $d \in \mathbb{Z}_p$ di 256 bit e
 calcola $P=dG$ (punto appartenente alla curva), generando così la coppia
@@ -189,7 +189,7 @@ Per effettuare una transazione sulla rete Bitcoin, l'emittente deve
 quindi avere accesso sia agli indirizzi pubblici di output, sia alle
 chiavi private associate agli indirizzi di input.
 
-::: esempio
+ ``` 
 **Esempio 2.1**. *Si ipotizzi che l'utente $A$ voglia inviare all'utente
 $B$ la somma di $1$ BTC. Si supponga che $A$ abbia a disposizione 3
 indirizzi Bitcoin con una disponibilità totale complessiva di $1.5$
@@ -214,7 +214,7 @@ privacy. Questi indirizzi vengono chiamati **indirizzi di ritorno** o
 <figure>
 
 </figure>
-:::
+ ``` 
 
 Si conclude che, generalmente, gli indirizzi di input e di output sono
 multipli, per questo motivo all'interno dell'header della transazione
@@ -415,7 +415,7 @@ commessi dagli utenti, come l'address reuse.
 
 ### Address Clustering
 
-::: tcolorbox
+ ``` 
 L'**Address Clustering** è una tecnica utilizzata per raggruppare
 indirizzi di criptovaluta che probabilmente appartengono alla stessa
 entità. Analizzando i modelli di transazione e i comportamenti, i
@@ -424,8 +424,7 @@ distinti. Questa tecnica aiuta a tracciare le attività sulla blockchain,
 migliorando la trasparenza e la capacità di individuare attività
 illecite, ma solleva anche preoccupazioni riguardo alla privacy degli
 utenti.
-:::
-
+ ``` 
 L'address clustering risulta essere un'arma a doppio taglio: mira a
 rompere lo pseudoanonimato collegando gli indirizzi controllati dallo
 stesso utente basandosi sulle informazioni disponibili dalla blockchain,
@@ -519,13 +518,13 @@ all'Address Reuse.
 **Hertzbleed** è una vulnerabilità appartenente alla famiglia dei
 Side-Channel attack.
 
-::: tcolorbox
+ ``` 
 Con **Side-Channel Attack** ci si riferisce alla famiglia di attacchi
 informatici che, sfruttando informazioni aggiuntive raccolte da un
 dispositivo come consumo elettrico, tempo di esecuzione o emissioni
 elettromagnetiche, cercano di violare il dispositivo stesso, ottenendo
 dati sensibili come chiavi crittografiche.
-:::
+ ``` 
 
 Questa vulnerabilità, esposta al USENIX Security 2022 da un gruppo di
 sette ricercatori universitari, consente di ottenere intere chiavi
@@ -779,14 +778,14 @@ reference="Vulnerabilità"}\]. Una gestione sicura dei bitcoin richiede
 la generazione di nuovi indirizzi per ogni transazione ricevuta,
 minimizzando così i rischi legati al riutilizzo degli indirizzi.
 
-::: tcolorbox
+ ``` 
 Con il termine **Cold Storage** si identifica una pratica di sicurezza
 per la conservazione degli asset digitali, che implica mantenere le
 chiavi private in un ambiente completamente offline e quindi non
 accessibile via Internet. Questo metodo riduce significativamente il
 rischio di intrusioni informatiche e attacchi, poiché le chiavi private
 non sono esposte a potenziali vulnerabilità online.
-:::
+ ``` 
 
 ## BTCPay Server
 
@@ -839,7 +838,7 @@ riutilizzo degli indirizzi. Tuttavia, è consigliabile controllare
 l'indirizzo generato e condurre una ricerca approfondita sul tipo di
 wallet che si decide di utilizzare.
 
-::: tcolorbox
+ ``` 
 I **software wallet** sono applicazioni informatiche o app mobile che
 consentono di gestire criptovalute tramite dispositivi connessi a
 Internet, come computer o smartphone.
@@ -853,7 +852,7 @@ più esposti ai rischi online, mentre gli hardware wallet garantiscono
 una maggiore sicurezza ma possono essere meno pratici da utilizzare. La
 scelta dipende dalle preferenze personali e dalle esigenze di sicurezza
 dell'utente.
-:::
+ ```
 
 ## Silent payments
 
@@ -861,12 +860,12 @@ Silent payments è un nuovo protocollo proposto nel BIP352 proposta da
 Ruben Somsen e dallo sviluppatore `josibake` nel 2022 [@bip352],
 approvati nel 2024.
 
-::: tcolorbox
+ ``` 
 Un **BIP** (*Bitcoin Improvement Proposal*) [@bip] è un documento
 progettuale per introdurre funzionalità o informazioni a Bitcoin. Questa
 è la modalità standard di comunicare idee e migliorie ideata poiché
 Bitcoin non prevede una struttura formale.
-:::
+ ``` 
 
 Un silent payment è un pagamento che può essere effettuato a un
 indirizzo univoco on-chain anche se il destinatario ha fornito al
@@ -883,7 +882,7 @@ costo di richiedere ai wallet di scansionare la blockchain per rilevare
 i pagamenti. Questo requisito aggiuntivo è generalmente fattibile per i
 nodi completi, ma rappresenta una sfida per i cosiddetti *light client*.
 
-::: tcolorbox
+ ``` 
 I **protocolli light client** permettono ai client (applicazioni,
 dispositivi, ecc.) di interagire con la blockchain e verificare in modo
 efficiente lo stato di quest'ultima, utilizzando metodi crittografici e
@@ -891,7 +890,7 @@ senza elaborarne l'interezza, solitamente con alcune assunzioni di
 sicurezza. I light client rappresentano una soluzione pratica per molti
 utenti che desiderano utilizzare Bitcoin senza le risorse richieste da
 un nodo completo, bilanciando efficienza, sicurezza e facilità d'uso.
-:::
+ ``` 
 
 Silent payments garantisce le seguenti proprietà:
 
@@ -933,7 +932,7 @@ $$P=B+\texttt{hash}(a \cdot B) \cdot G$$
 
 Alice codifica $P$ come un output Taproot (BIP341).
 
-::: tcolorbox
+ ``` 
 **Taproot** è una proposta di miglioramento di Bitcoin (BIP 341) che
 introduce le Schnorr Signatures, consentendo una maggiore efficienza e
 fungibilità delle transazioni. Un output Taproot è un output segwit (BIP
@@ -942,7 +941,7 @@ delle transazioni e aumentando il limite di blocco) che utilizza uno
 script che può essere risolto tramite una chiave pubblica Schnorr. La
 chiave di output Taproot è ottenuta combinando una chiave pubblica con
 un punto aggiuntivo derivato da un Merkle tree.
-:::
+ ``` 
 
 Poiché $a\cdot B$ è uguale a $b \cdot A$ (Diffie-Hellman su curva
 ellittica), Bob può scansionare la blockchain con la sua chiave privata
@@ -975,7 +974,7 @@ $$input_{hash}=\texttt{hash}(outpoint||A).$$ Calcolo del primo output:
 $P_0=B+\texttt{hash}(input_{hash}\cdot a \cdot B||0) \cdot G$. Bob deve
 calcolare lo stesso $input_{hash}$ durante la scansione.
 
-::: tcolorbox
+ ``` 
 Un **outpoint** è un componente di una transazione Bitcoin che
 identifica in modo univoco un UTXO e specifica quale output della
 transazione precedente verrà utilizzato come input nella transazione
@@ -988,7 +987,7 @@ Bitcoin e si desidera utilizzare un UTXO come input, è necessario
 specificare l'outpoint che identifica l'UTXO desiderato. Questo consente
 alla rete Bitcoin di comprendere quale transazione precedente verrà
 consumata e quale output specifico di quella transazione verrà speso.
-:::
+ ``` 
 
 Semplificando si è parlato delle transazioni di Alice come se avessero
 un solo input $A$, ma in realtà una transazione Bitcoin può avere molti
@@ -1040,13 +1039,13 @@ lightning sono generati univocamente per ogni richiesta di pagamento,
 quindi scongiurano di default l'address reuse, ma devono essere creati
 manualmente per ogni richiesta di pagamento.
 
-::: tcolorbox
+ ``` 
 Un **Lightning invoice** è una fattura utilizzata su Lightning Network
 per richiedere pagamenti. Contiene le informazioni necessarie per
 effettuare un pagamento, in particolare: nodo destinatario, importo, un
 hash univoco associato alla fattura, scadenza, descrizione, indirizzo di
 fallback.
-:::
+ ``` 
 
 **LNURL** (*Lightnin Network URL*) è un protocollo che estende le
 funzionalità di Lightning Network, semplificando e automatizzando molte
@@ -1128,7 +1127,7 @@ senza la necessità di un intermediario fidato. Questo approccio riduce
 il rischio di esposizione, poiché non esiste un singolo punto di
 controllo.
 
-::: tcolorbox
+ ``` 
 Il protocollo crittografico a **zero-knowledge** è un metodo che
 permette ad un soggetto di dimostrare ad un altro che un'affermazione è
 vera senza dover provare altro oltre alla veridicità stessa. Dati un
@@ -1139,7 +1138,7 @@ assimila ulteriore conoscenza rispetto a quella che aveva in precedenza,
 ma può ora fidarsi dell'affermazione del prover. È quindi un modo
 utilizzato per dimostrare di essere in possesso di alcune informazioni
 senza dover esplicitare le stesse.
-:::
+ ``` 
 
 I mixer addebitano comunemente una commissione del 1-3% per i loro
 servizi.
@@ -1185,14 +1184,14 @@ Non richiede l'elezione di un leader e garantisce che non ci sia
 possibilità di correlare indirizzi utilizzando il protocollo, sfruttando
 le MuSig.
 
-::: tcolorbox
+ ``` 
 **MuSig** è uno schema di firma multipla progettato per essere
 utilizzato con curve ellittiche, come ECDSA. È stato proposto come un
 miglioramento per l'efficienza e la privacy rispetto agli attuali schemi
 di firma utilizzati in Bitcoin. Le firme parziali di tutti i
 partecipanti vengono aggregate per creare una \"firma congiunta\", che è
 utilizzata per autorizzare la transazione sulla blockchain di Bitcoin.
-:::
+ ``` 
 
 Assumiamo che $N$ parti distinte abbiano precedentemente deciso di
 partecipare all'azione di mixing e siano in grado di scambiarsi alcune
@@ -1212,13 +1211,13 @@ centralizzati.
 
 ## CoinJoin
 
-::: tcolorbox
+ ``` 
 **CoinJoin** è un protocollo di privacy per Bitcoin che consente a più
 utenti di combinare le loro transazioni in una singola operazione.
 Questo metodo aumenta la privacy rendendo difficile per gli osservatori
 esterni collegare input e output specifici, complicando così la
 tracciabilità delle transazioni.
-:::
+ ``` 
 
 Un gruppo di utenti decide di partecipare a una transazione CoinJoin,
 fornendo i propri input (Bitcoin) e specificando gli output desiderati.
