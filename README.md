@@ -1,6 +1,6 @@
 **A cura di**\
-Andrea Dimauro\ 
-Flavio Mastrorocco\ 
+Andrea Dimauro\
+Flavio Mastrorocco\
 Sibilla Merlo\
 Giulia Lydia Perini\
 Paolo Tiecco\
