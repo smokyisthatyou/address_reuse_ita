@@ -725,7 +725,7 @@ analizzando probabilmente il grafo delle transazioni ottenuto a causa
 del riutilizzo degli indirizzi Bitcoin che si è dimostrato un punto
 debole sfruttato dalle autorità statunitensi.
 
-# Best practices {#BestPractice}
+# Best practices 
 
 Questo capitolo è atto a descrivere tecniche e comportamenti che sono
 allo stato attuale consigliati per evitare di effettuare, anche in modo
