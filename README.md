@@ -693,7 +693,7 @@ che visualizzano le connessioni tra diversi indirizzi Bitcoin coinvolti
 nelle transazioni.
 
 ![Grafo delle transazioni dell'utente
-Reddit](Pictures/grafoSilkRoad.png){#fig:grafoSilk width="80%"}
+Reddit](PicturesGrafoSilkRoad.png){#fig:grafoSilk width="80%"}
 
 L'immagine rappresenta il movimento di quasi un miliardo di dollari in
 BTC da un wallet associato a Silk Road.
