@@ -1,27 +1,11 @@
-
-
-::::: titlepage
-:::: center
-POLITECNICO DI TORINO\
-**Corso di Laurea\
-in Computer Systems Engineering**\
-Blockchain e Criptoeconomia\
-**Address reuse e tecniche di mitigazione**\
-![image](./Pictures/logo_polito_2021.jpg){width="0.23
-\\textwidth"}
-
-::: flushleft
-**A cura di**\
-Andrea Dimauro s333217\
-Flavio Mastrorocco s332900\
-Sibilla Merlo s319248\
-Giulia Lydia Perini s334002\
-Paolo Tiecco s324508\
-:::
+**A cura di**
+Andrea Dimauro 
+Flavio Mastrorocco 
+Sibilla Merlo 
+Giulia Lydia Perini
+Paolo Tiecco
 
 Anno Accademico 2023-2024
-::::
-:::::
 
 # Abstract
 
