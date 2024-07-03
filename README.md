@@ -1306,3 +1306,64 @@ altresì essere sfruttato per fini meno nobili.
     [3.1](#es:grafo){reference-type="ref" reference="es:grafo"} sono
     stati reperiti tramite la consultazione di un Explorer di Bitcoin
     [@blockchainExplorer].*
+
+# Bibliography
+
+Bitcoin. 2013. “Android Security Vulnerability.” 2013.
+<https://bitcoin.org/en/alert/2013-08-11-android>.
+
+BitcoinForum. 2013. “Bad Signatures Leading to 55.82152538 BTC Theft (so
+Far).” 2013. <https://bitcointalk.org/index.php?topic=271486.0>.
+
+“Blockchain.com Explorer.” n.d. <https://www.blockchain.com/explorer/>.
+
+BTCPay Server. 2024. “BTCPay Server GitHub Page.”
+<https://github.com/btcpayserver/btcpayserver>.
+
+community, Bitcoin. n.d. “BIPS.” <https://github.com/bitcoin/bips>.
+
+Fadi Barbara, Claudio Schifanella. n.d. “DMix: Decentralized Mixed for
+Unlikability.” <https://fadibarbara.it/papers/dmix.pdf>.
+
+Intel. 2022. “Frequency Throttling Side Channel Software Guidance for
+Cryptography Implementations.” 2022.
+<https://www.intel.com/content/www/us/en/developer/articles/technical/software-security-guidance/best-practices/frequency-throttling-side-channel-guidance.html>.
+
+Italia, Atlas21. 2024. “Silent Payments.” 2024.
+<https://x.com/Atlas21IT/status/1792520043298767042>.
+
+josibake, RubenSomsen. 2024. “Silent Payments-BIP352.” 2024.
+<https://github.com/bitcoin/bips/blob/master/bip-0352.mediawiki>.
+
+Nakamoto, Satoshi. 2008. “Bitcoin: A Peer-to-Peer Electronic Cash
+System.” <https://bitcoin.org/bitcoin.pdf>.
+
+Nostr. n.d. “What Are Zaps?” <https://nostr.how/en/zaps>.
+
+Optech, Bitcoin. 2024. “Silent Payments.” 2024.
+<https://bitcoinops.org/en/topics/silent-payments/>.
+
+Reddit. 2018. 2018.
+<https://www.reddit.com/r/Bitcoin/comments/9bwsaf/investigating_the_1b_bitcoins_on_the_move_from_a/>.
+
+Siddharth-Medium. 2023. “LNURL: A Protocol for Easy Communication
+Between Lightning Wallets and Services.” 2023.
+<https://medium.com/@siddharthtiwarikreplind/lnurl-a-protocol-for-easy-communication-between-lightning-wallets-and-services-8248b83d7b0d>.
+
+Wang, Yingchen, Riccardo Paccagnella, Elizabeth He, Hovav Shacham,
+Christopher W. Fletcher, and David Kohlbrenner. 2022. “Hertzbleed:
+Turning Power Side-Channel Attacks into Remote Timing Attacks on X86.”
+In *Proceedings of the USENIX Security Symposium (USENIX)*.
+<https://www.hertzbleed.com/2h2b.pdf>.
+
+Wikipedia contributors. 2024. “Silk Road (Marketplace) — Wikipedia, the
+Free Encyclopedia.”
+<https://en.wikipedia.org/w/index.php?title=Silk_Road_(marketplace)>.
+
+Yuhang Zang, Jie Luo, Jun wang. 2020. “Heuristic-Based Address
+Clustering in Bitcoin.” 2020.
+<https://www.researchgate.net/publication/347083664_Heuristic-Based_Address_Clustering_in_Bitcoin>.
+
+
+
+    
