@@ -1,8 +1,4 @@
----
-bibliography:
-- references.bib
-- references.bib
----
+
 
 ::::: titlepage
 :::: center
