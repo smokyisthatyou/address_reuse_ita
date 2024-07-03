@@ -3,9 +3,9 @@ Andrea Dimauro\
 Flavio Mastrorocco\
 Sibilla Merlo\
 Giulia Lydia Perini\
-Paolo Tiecco\
+Paolo Tiecco
 
-Anno Accademico 2023-2024\
+Anno Accademico 2023-2024
 
 # Abstract
 
