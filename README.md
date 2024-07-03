@@ -14,7 +14,7 @@ studiare il concetto di *address reuse* e le relative tecniche di
 mitigazione, tra cui silent payments.
 
 La narrazione si sviluppa introducendo i cardini della tecnologia
-Bitcoin[](#introduzione), riassumendo quindi come avvengono le transazioni, come sono
+Bitcoin[bb](#introduzione), riassumendo quindi come avvengono le transazioni, come sono
 calcolati e generati gli indirizzi (pubblici e privati) e come
 quest'ultimi vengano utilizzati. La ricerca prosegue con l'approfondimento del
 problema del riutilizzo degli indirizzi, evidenziando aspetti relativi a
