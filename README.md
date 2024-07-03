@@ -110,7 +110,8 @@ Come destinazione di un trasferimento Bitcoin, non vengono utilizzate
 direttamente le chiavi pubbliche, ma si calcolano i cosiddetti indirizzi
 Bitcoin.
 
-::: tcolorbox
+---
+
 Per generare un indirizzo Bitcoin si procede nel seguente modo:
 
 -   si calcola $S=$ `version byte` $||$
@@ -123,7 +124,8 @@ Per generare un indirizzo Bitcoin si procede nel seguente modo:
 
 -   si ottiene l'indirizzo calcolando la codifica
     `Base58Check`($S_{check}$)
-:::
+
+---
 
 Come si evince dalla trattazione, gli indirizzi Bitcoin sono
 strettamente connessi alle chiavi pubbliche. La decisione di derivare
