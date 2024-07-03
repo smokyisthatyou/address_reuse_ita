@@ -16,22 +16,17 @@ mitigazione, tra cui silent payments.
 La narrazione si sviluppa introducendo i cardini della tecnologia
 Bitcoin, riassumendo quindi come avvengono le transazioni, come sono
 calcolati e generati gli indirizzi (pubblici e privati) e come
-quest'ultimi vengano utilizzati \[§[2](#intro){reference-type="ref"
-reference="intro"}\]. La ricerca prosegue con l'approfondimento del
+quest'ultimi vengano utilizzati. La ricerca prosegue con l'approfondimento del
 problema del riutilizzo degli indirizzi, evidenziando aspetti relativi a
-privacy e sicurezza del proprietario
-\[§[3](#AddressReuse){reference-type="ref" reference="AddressReuse"}\].
+privacy e sicurezza del proprietario.
 Lo studio si espande analizzando alcune tecniche per limitare e mitigare
 i difetti, le problematiche e gli effetti indesiderati dovute agli
-*address reuse* \[§[\[Mitigazione\]](#Mitigazione){reference-type="ref"
-reference="Mitigazione"}\]. Vengono, infine, esplorati alcuni attacchi
+*address reuse*. Vengono, infine, esplorati alcuni attacchi
 informatici avvenuti sfruttando la ripetizione degli indirizzi
-\[§[4](#Vulnerabilità){reference-type="ref" reference="Vulnerabilità"}\]
 e vengono presentate le pratiche migliori da adottare per evitare
-problematiche legate all'*address reuse*
-\[§[5](#BestPractice){reference-type="ref" reference="BestPractice"}\].
+problematiche legate all'*address reuse*.
 
-# Introduzione {#intro}
+# Introduzione
 
 ## Bitcoin Blockchain
 
