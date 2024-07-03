@@ -219,7 +219,7 @@ multipli, per questo motivo all'interno dell'header della transazione
 viene indicato il numero degli indirizzi oltre che ai loro effettivi
 valori.
 
-# Address reuse {#AddressReuse}
+# Address reuse
 
 Il seguente capitolo ha come obiettivo quello di concentrarsi sul
 concetto dell'address reuse e di studiare come esso possa generare
