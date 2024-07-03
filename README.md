@@ -1,11 +1,11 @@
-**A cura di**/
-Andrea Dimauro/ 
-Flavio Mastrorocco/ 
-Sibilla Merlo/
-Giulia Lydia Perini/
-Paolo Tiecco/
+**A cura di**\
+Andrea Dimauro\ 
+Flavio Mastrorocco\ 
+Sibilla Merlo\
+Giulia Lydia Perini\
+Paolo Tiecco\
 
-Anno Accademico 2023-2024/
+Anno Accademico 2023-2024\
 
 # Abstract
 
@@ -14,7 +14,7 @@ studiare il concetto di *address reuse* e le relative tecniche di
 mitigazione, tra cui silent payments.
 
 La narrazione si sviluppa introducendo i cardini della tecnologia
-Bitcoin, riassumendo quindi come avvengono le transazioni, come sono
+Bitcoin[](#introduzione), riassumendo quindi come avvengono le transazioni, come sono
 calcolati e generati gli indirizzi (pubblici e privati) e come
 quest'ultimi vengano utilizzati. La ricerca prosegue con l'approfondimento del
 problema del riutilizzo degli indirizzi, evidenziando aspetti relativi a
