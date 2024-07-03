@@ -39,11 +39,11 @@ crittografia, teoria dei giochi e informatica per creare una valuta
 decentralizzata che opera senza la necessità di intermediari come banche
 o istituzioni finanziarie.
 
----
+ ``` 
 Con il termine **Blockchain** indichiamo un database distribuito, noto
 anche come *Distributed Ledger Technology* (DLT), immutabile che
 introduce il concetto di scarsità digitale.
----
+ ``` 
 
 Tale database è in possesso di tutti gli utenti, i quali sono collegati
 in una rete peer-to-peer. I nodi della rete aderiscono collettivamente
