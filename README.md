@@ -480,7 +480,7 @@ clustering. La percentuale di riduzione degli indirizzi a cui essa
 contribuisce è in media circa del 45.12%. Non esiste un'altra euristica
 che abbia una percentuale di riduzione degli indirizzi così elevata.
 
-# Vulnerabilità e Privacy Breach {#Vulnerabilità}
+# Vulnerabilità e Privacy Breach 
 
 Sebbene uno dei tratti distintivi delle criptovalute è quello di essere
 anonime, riutilizzare lo stesso indirizzo consente di risalire allo
