@@ -1307,7 +1307,7 @@ altresì essere sfruttato per fini meno nobili.
     stati reperiti tramite la consultazione di un Explorer di Bitcoin
     [@blockchainExplorer].*
 
-# Bibliography
+# Bibliografia
 
 Bitcoin. 2013. “Android Security Vulnerability.” 2013.
 <https://bitcoin.org/en/alert/2013-08-11-android>.
